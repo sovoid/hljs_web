@@ -1,0 +1,23 @@
+{
+  "name": "portolio",
+  "version": "1.0.0",
+  "description": "My personal portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
+  },
+  "author": "Soham Parekh",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^3.10.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "debug": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^2.7.2",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
